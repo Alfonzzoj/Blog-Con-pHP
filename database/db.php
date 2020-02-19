@@ -11,8 +11,8 @@
 
     $result=mysqli_query($conn,$query);
 
-    $fila=mysqli_fetch_row($result);
+    $dato=mysqli_fetch_row($result);
 
-    echo $fila[3];
+
 
 ?>

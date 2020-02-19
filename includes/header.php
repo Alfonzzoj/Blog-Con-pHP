@@ -55,3 +55,4 @@
             </ul>
         </div>
     </nav>
+    <?php include'database/db.php'       ?>
