@@ -1,18 +1,22 @@
 <?php
 
-    $db_host="localhost";
-    $db_name="bloggin";
-    $db_user="root";
-    $db_password="";
+$db_host = "localhost";
+$db_name = "bloggin";
+$db_user = "root";
+$db_password = "";
+$db_table = "posts";
 
-    $conn=mysqli_connect($db_host,$db_user,$db_password,$db_name);
+$conn = mysqli_connect($db_host, $db_user, $db_password, $db_name);
 
-    $query="SELECT * FROM posts ";
+if (mysqli_connect_errno()) {
+    echo "error base de datos <br>";
+    exit();
+}
+// $query = "INSERT INTO $db_table () ";
 
-    $result=mysqli_query($conn,$query);
+// $result = mysqli_query($conn, $query);
 
-    $dato=mysqli_fetch_row($result);
+// $dato = mysqli_fetch_row($result);
 
-
-
+// mysqli_close($conn);
 ?>
