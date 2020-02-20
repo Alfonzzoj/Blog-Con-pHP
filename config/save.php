@@ -13,8 +13,9 @@
                     </button>
                 </div>
 
-            <?php session_unset();
-            }          ?>
+            <?php
+            }
+            session_unset();      ?>
             <div class="card card-body">
                 <form action="save.php" method="POST">
                     <div class="form-group">

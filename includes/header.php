@@ -12,7 +12,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="resources/main.css">
     <title>Blog con php </title>
 </head>
 
@@ -32,6 +31,10 @@
 
                 <li class="nav-item">
                     <a class="nav-link" href="config/save.php">Crear Post</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="config/list.php">Listar posts</a>
                 </li>
                 <!--
                     <li class="nav-item dropdown">
