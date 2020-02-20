@@ -2,6 +2,7 @@
 <?php include '../includes/header.php'       ?>
 
 <!-- Main -->
+<script src="https://kit.fontawesome.com/c39a922e26.js" crossorigin="anonymous"></script>
 
 <!-- POST CARD -->
 <div class="container p-4">
@@ -30,7 +31,10 @@
                     <td><? echo $row['Descripcion'] ?></td>
                     <td><? echo $row['Nombre_usuario'] ?></td>
                     <td><? echo $row['Fecha'] ?></td>
-                    <td><a href="update.php?id=<?php echo $row['id'] ?>">Edit </a><a href="delete.php?id=<?php echo $row['id'] ?>">Delete</a></td>
+                    <td class="pl-4">
+                        <a class="btn btn-secondary mr-2" href="update.php?id=<?php echo $row['id'] ?>"><i class="fas fa-tools"></i></a>
+                        <a class="btn btn-danger" href="delete.php?id=<?php echo $row['id'] ?>"><i class="fas fa-times-circle"></i></a>
+                    </td>
 
                 </tr>
             <?php } ?>
