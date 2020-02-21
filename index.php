@@ -2,9 +2,17 @@
 <?php include 'includes/header.php'       ?>
 
 <!-- Main -->
-
 <!-- POST CARD -->
 <div class="container p-4">
+    <div class="row ">
+        <div class="col-md-12 blockquote text-center">
+            <h3 class="display-3">
+                Bloggin dashboard
+            </h3>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            <hr>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-8">
 
@@ -32,8 +40,8 @@
             </div>
         </div>
         <div class="col-md-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita aspernatur explicabo architecto doloribus, est quo repellat aliquid officia praesentium molestiae magni, nesciunt eligendi. Esse, quos ab sit nam quibusdam repellat?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora nam magnam dolorum nulla sint non fugiat omnis itaque, ducimus eius quam laborum perferendis ab ea temporibus impedit, mollitia assumenda.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expfefsedfedita aspernatur explicabo architecto doloribus, est quo repellat aliquid officia praesentium molestiae magni, nesciunt eligendi. Esse, quos ab sit nam quibusdam repellat?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisadasdsdhil tempora nam magnam dolorum nulla sint non fugiasadsdsat omnis itaque, ducimus eius quam laborum perferendis ab ea temporibus impedit, mollitia assumenda.
             <hr>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est minus quae cumque necessitatibus assumenda dolores, quidem provident neque quaerat architecto qui animi similique consequatur magnam doloremque, repellendus at voluptatibus quia!
         </div>
