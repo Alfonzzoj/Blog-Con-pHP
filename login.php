@@ -19,7 +19,7 @@
                 <label for="Password">Password</label>
                 <input id="Password" class="form-control" type="password" placeholder="Password" name="password">
                 <small id="passwordHelpBlock" class="form-text text-muted">
-                    ¿Don't have account? <a href="">Sign up</a>
+                    ¿Don't have account? <a href="signup.php">Sign up</a>
                 </small>
             </div>
             <button type="submit" class="btn btn-primary btn-block mb-2">Confirm identity</button>

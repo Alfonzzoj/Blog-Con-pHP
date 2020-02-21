@@ -16,10 +16,10 @@
     <div class="row">
         <div class="col-md-8">
 
-            <div class="card mb-3 bg-dark text-white" style="max-width: 540px;">
+            <div class="card mb-3 bg-dark text-white media" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4 pt-5">
-                        <img src="img/1.png" class=" card-img rounded-circle i">
+                        <img src="img/1.png" class=" card-img rounded-circle i align-self-center mr-3">
                     </div>
 
                     <div class="col-md-8">
@@ -28,7 +28,7 @@
                             $result_post = mysqli_query($conn, $query);
                             while ($row = mysqli_fetch_array($result_post)) { ?>
                                 <?php echo $row['Titulo'];  ?></div>
-                        <div class="card-body">
+                        <div class="card-body media-body">
                             <p class="card-text"><?php echo $row['Descripcion'];  ?></p>
                             <a class="btn btn-secondary form-control" href="#" role="button">View details »</a>
                             <p class="card-text"><small class="text-muted">Last updated <?php echo $row['Fecha'];  ?> - <a href="#"><?php echo $row['Nombre_usuario'];  ?></a></small></p>

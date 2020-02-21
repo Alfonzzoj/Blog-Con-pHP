@@ -2,7 +2,9 @@
 <?php include '../includes/header.php'       ?>
 
 <!-- Main -->
-<script src="https://kit.fontawesome.com/c39a922e26.js" crossorigin="anonymous"></script>
+<link href="../source/fontawesone/css/fontawesome.css" rel="stylesheet">
+<link href="../source/fontawesone/css/brands.css" rel="stylesheet">
+<link href="../source/fontawesone/css/solid.css" rel="stylesheet">
 
 <!-- POST CARD -->
 <div class="container p-4">
@@ -12,9 +14,13 @@
 </div>
 </div>
 <div class="col-md-12">
-    <table class="table table-bordered">
-        <thead>
+    <table class="table table-bordered table-hover ">
+        <caption>List of posts</caption>
+
+        <thead class="thead-dark">
             <tr>
+                <th>#</th>
+
                 <th>Titulo post</th>
                 <th>Descripcion Post</th>
                 <th>Usuario</th>
@@ -27,6 +33,8 @@
             $result_post = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_array($result_post)) { ?>
                 <tr>
+                    <th scope="row"><? echo $row['id'] ?></th>
+
                     <td><? echo $row['Titulo'] ?></td>
                     <td><? echo $row['Descripcion'] ?></td>
                     <td><? echo $row['Nombre_usuario'] ?></td>
