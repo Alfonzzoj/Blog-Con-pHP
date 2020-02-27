@@ -20,24 +20,27 @@
 <body>
     <!-- Navegacion -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-        <a class="navbar-brand" href="../index.php"><img src="img/logob.png" alt="" width="30" height="30" class="d-inline-block align-top"> Bloggin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="/Proyectos/php/index.php">
+            <img src="img/logob.png" alt="" width="30" height="30" class="d-inline-block align-top">
+            Bloggin
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- NAVBAR MENU -->
+        <div class="collapse navbar-collapse" id="navbarmenu">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="index.php">Home </a>
+                    <a class="nav-link" href="/Proyectos/php/index.php">Home </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="admin.php">Admin <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/Proyectos/php/admin.php">Admin <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="login.php">Login<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/Proyectos/php/login.php">Login<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="signup.php">Sign up <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/Proyectos/php/signup.php">Sign up <span class="sr-only">(current)</span></a>
                 </li>
 
                 <!--

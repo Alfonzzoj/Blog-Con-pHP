@@ -58,7 +58,7 @@
                     </form>
 
                     <?php
-
+                    // Inserto en tabala 
                     if (isset($_POST['save'])) {
                         $title = $_POST['Titulo'];
                         $description = $_POST['Descripcion'];
