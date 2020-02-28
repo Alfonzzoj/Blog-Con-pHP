@@ -9,7 +9,20 @@
 <!-- POST CARD -->
 <div class="container p-4">
     <div class="row">
+        <?php
+        if (isset($_SESSION['mensaje'])) { ?>
 
+            <div class="alert alert-<?= $_SESSION['mensaje_tipo']; ?> alert-dismissible fade show" role="alert">
+                <?= $_SESSION['mensaje'];  ?>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <?php
+        }
+        session_unset();
+
+        ?>
     </div>
 </div>
 </div>
@@ -29,12 +42,12 @@
             </tr>
         </thead>
         <tbody>
-            <?php $query = "SELECT * FROM $db_table";
+            <?php
+            $query = "SELECT * FROM $db_table";
             $result_post = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_array($result_post)) { ?>
                 <tr>
                     <th scope="row"><? echo $row['id'] ?></th>
-
                     <td><? echo $row['Titulo'] ?></td>
                     <td><? echo $row['Descripcion'] ?></td>
                     <td><? echo $row['Nombre_usuario'] ?></td>
@@ -43,10 +56,8 @@
                         <a class="btn btn-secondary mr-2" href="update.php?id=<?php echo $row['id'] ?>"><i class="fas fa-tools"></i></a>
                         <a class="btn btn-danger" href="delete.php?id=<?php echo $row['id'] ?>"><i class="fas fa-times-circle"></i></a>
                     </td>
-
                 </tr>
             <?php } ?>
-
         </tbody>
     </table>
 </div>
