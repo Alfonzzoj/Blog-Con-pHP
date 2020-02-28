@@ -1,5 +1,5 @@
 <?php include 'database/db_posts.php';       ?>
-<?php include 'views/includes/header.php';       ?>
+<?php include 'views/header.php';       ?>
 
 <!-- Main -->
 <!-- POST CARD -->
@@ -19,7 +19,7 @@
             <div class="card mb-3 bg-dark text-white media" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4 pt-5">
-                        <img src="img/1.png" class=" card-img rounded-circle i align-self-center mr-3">
+                        <img src="source/img/1.png" class=" card-img rounded-circle i align-self-center mr-3">
                     </div>
 
                     <div class="col-md-8">
@@ -51,4 +51,4 @@
 
 
 
-<?php include 'includes/footer.php'       ?>
+<?php include 'views/footer.php'       ?>

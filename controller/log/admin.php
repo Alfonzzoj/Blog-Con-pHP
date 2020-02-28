@@ -1,4 +1,4 @@
-<?php include '../../views/includes/header_loged.php'; ?>
+<?php include '../../views/header_loged.php'; ?>
 
 <div class="container p-4 mt-4">
     <div class="col-md-12">
@@ -19,4 +19,4 @@
     </div>
 </div>
 
-<?php include '../../views/includes/footer.php'       ?>
+<?php include '../../views/footer.php'       ?>

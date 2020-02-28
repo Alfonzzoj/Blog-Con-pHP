@@ -1,4 +1,4 @@
-<?php include '../../views/includes/header_loged.php'; ?>
+<?php include '../../views/header_loged.php'; ?>
 
 <?php include '../../database/db_posts.php' ?>
 
@@ -55,4 +55,4 @@
 </div>
 
 
-<?php include '../../views/includes/footer.php';      ?>
+<?php include '../../views/footer.php';      ?>

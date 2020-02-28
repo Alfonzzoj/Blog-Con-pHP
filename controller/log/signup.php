@@ -1,4 +1,4 @@
-<?php include '../../views/includes/header.php';
+<?php include '../../views/header.php';
 session_start();
 session_destroy();
 ?>
@@ -58,4 +58,4 @@ session_destroy();
 
 </div>
 
-<?php include '../../views/includes/footer.php'       ?>
+<?php include '../../views/footer.php'       ?>

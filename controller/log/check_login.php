@@ -1,4 +1,4 @@
-<?php include 'includes/header.php';
+<?php include '/header.php';
 
 try {
     $db_host    = "localhost";

@@ -1,5 +1,5 @@
 <?php include '../../database/db_posts.php'       ?>
-<?php include '../../views/includes/header_loged.php'       ?>
+<?php include '../../views//header_loged.php'       ?>
 
 <!-- Main -->
 <link href="../../source/fontawesone/css/fontawesome.css" rel="stylesheet">
@@ -67,4 +67,4 @@
 
 
 
-<?php include '../../views/includes/footer.php';      ?>
+<?php include '../../views/footer.php';      ?>

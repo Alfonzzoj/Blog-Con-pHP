@@ -1,4 +1,4 @@
-<?php include '../../views/includes/header.php'; ?>
+<?php include '../../views/header.php'; ?>
 <div class="container p-5">
 
     <div class="card card-body">
@@ -29,4 +29,4 @@
     </div>
 
 </div>
-<?php include '../../views/includes/footer.php'       ?>
+<?php include '../../views/footer.php'       ?>

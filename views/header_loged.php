@@ -41,4 +41,4 @@
                 </ul>
             </div>
         </nav>
-        <?php include '../../views/includes/footer.php'       ?>
+        <?php include '../../views//footer.php'       ?>
