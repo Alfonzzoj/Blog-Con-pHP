@@ -68,6 +68,7 @@
 
                         $result = mysqli_query($conn, $query);
                         session_start();
+                        session_destroy();
 
                         $_SESSION['mensaje'] = 'Blog creado';
                         $_SESSION['mensaje_tipo'] = 'success';
@@ -83,6 +84,7 @@
                     <?php
                     }
                     session_unset();
+
                     ?>
                 </div>
             </div>
