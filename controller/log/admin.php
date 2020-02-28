@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include '../../views/includes/header_loged.php'; ?>
 
 <div class="container p-4 mt-4">
     <div class="col-md-12">
@@ -6,9 +6,9 @@
             <thead>
                 <tr>
 
-                    <th><a href="config/save.php">Crear post</a></th>
+                    <th><a href="../config/save.php">Crear post</a></th>
                 </tr>
-                <th><a href="config/list.php">Listar posts</a></th>
+                <th><a href="../config/list.php">Listar posts</a></th>
             </thead>
             <tbody>
 
@@ -19,4 +19,4 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'       ?>
+<?php include '../../views/includes/footer.php'       ?>

@@ -1,4 +1,4 @@
-<?php include '../database/db.php';
+<?php include '../../database/db_posts.php';
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];

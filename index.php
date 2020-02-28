@@ -1,5 +1,5 @@
-<?php include 'database/db.php'       ?>
-<?php include 'includes/header.php'       ?>
+<?php include 'database/db_posts.php';       ?>
+<?php include 'views/includes/header.php';       ?>
 
 <!-- Main -->
 <!-- POST CARD -->

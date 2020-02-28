@@ -1,6 +1,5 @@
 <?php
 
-
 $db_host = "localhost";
 $db_name = "bloggin";
 $db_user = "root";

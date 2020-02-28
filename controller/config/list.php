@@ -1,10 +1,10 @@
-<?php include '../database/db.php'       ?>
-<?php include '../includes/header.php'       ?>
+<?php include '../../database/db_posts.php'       ?>
+<?php include '../../views/includes/header_loged.php'       ?>
 
 <!-- Main -->
-<link href="../source/fontawesone/css/fontawesome.css" rel="stylesheet">
-<link href="../source/fontawesone/css/brands.css" rel="stylesheet">
-<link href="../source/fontawesone/css/solid.css" rel="stylesheet">
+<link href="../../source/fontawesone/css/fontawesome.css" rel="stylesheet">
+<link href="../../source/fontawesone/css/brands.css" rel="stylesheet">
+<link href="../../source/fontawesone/css/solid.css" rel="stylesheet">
 
 <!-- POST CARD -->
 <div class="container p-4">
@@ -67,4 +67,4 @@
 
 
 
-<?php include '../includes/footer.php'       ?>
+<?php include '../../views/includes/footer.php';      ?>

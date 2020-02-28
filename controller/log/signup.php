@@ -1,4 +1,4 @@
-<?php include 'includes/header.php';
+<?php include '../../views/includes/header.php';
 session_start();
 session_destroy();
 ?>
@@ -24,7 +24,7 @@ session_destroy();
             </div>
 
             <button type="submit" class="btn btn-primary btn-block mb-2" name="signup">Sign up</button>
-            <?php include 'database/db_users.php'; ?>
+            <?php include '../../database/db_users.php'; ?>
 
             <?php
 
@@ -58,4 +58,4 @@ session_destroy();
 
 </div>
 
-<?php include 'includes/footer.php'       ?>
+<?php include '../../views/includes/footer.php'       ?>
