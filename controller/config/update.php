@@ -1,2 +1,3 @@
-<?php include '../database/db_posts.php'       ?>
-<?php include '..//header.php'       ?>
+<?php
+include '../../views/header_loged.php';
+include '../../database/db_posts.php';

@@ -4,7 +4,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="1">
+    <meta http-equiv="refresh" content="10">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -30,6 +30,8 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
 
+                <li class="nav-item active"><a class="nav-link" href="/Proyectos/php/controller/log/admin.php">Admin<span class="sr-only">(current)</span></a>
+                </li>
                 <li class="nav-item active"><a class="nav-link" href="/Proyectos/php/controller/log/login.php">Login<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item "><a class="nav-link" href="/Proyectos/php/controller/log/signup.php">Sign up <span class="sr-only">(current)</span></a>
