@@ -2,7 +2,7 @@
 
 <?php include '../../database/db_posts.php' ?>
 
-<div class="container p-4">
+<div class="container mt-5 pt-5">
     <div class="row">
         <div class="col-md-6">
 

@@ -20,10 +20,12 @@
         body {
             background-color: white;
             font-family: "Open Sans";
+
         }
 
         .navbar {
             border-bottom: #639 4px solid;
+            opacity: .98;
         }
     </style>
     <!-- Navegacion -->

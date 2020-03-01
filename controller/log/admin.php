@@ -1,6 +1,6 @@
 <?php include '../../views/header_loged.php'; ?>
 
-<div class="container p-4 mt-4">
+<div class="container  mt-5 pt-5">
     <div class="col-md-12">
         <table class="table table-bordered table-hover">
             <thead>

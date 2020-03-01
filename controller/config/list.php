@@ -7,7 +7,7 @@
 <link href="../../source/fontawesone/css/solid.css" rel="stylesheet">
 
 <!-- POST CARD -->
-<div class="container pt-5 ">
+<div class="container mt-5 pt-5 ">
     <div class="row">
         <div class="col-md-12">
             <?php
