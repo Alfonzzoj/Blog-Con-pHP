@@ -41,4 +41,3 @@
                 </ul>
             </div>
         </nav>
-        <?php include '../../views//footer.php'       ?>
