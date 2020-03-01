@@ -32,11 +32,11 @@
             <tr>
                 <th>#</th>
 
-                <th>Titulo post</th>
-                <th>Descripcion Post</th>
-                <th>Usuario</th>
-                <th>Fecha de creacion</th>
-                <th>Accciones</th>
+                <th>Title post</th>
+                <th>Description Post</th>
+                <th>Username</th>
+                <th>Created at</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -50,7 +50,7 @@
                     <td><? echo $row['Descripcion'] ?></td>
                     <td><? echo $row['Nombre_usuario'] ?></td>
                     <td><? echo $row['Fecha'] ?></td>
-                    <td class="pl-4">
+                    <td class="text-center">
                         <a class="btn btn-secondary mr-2" href="update.php?id=<?php echo $row['id'] ?>"><i class="fas fa-tools"></i></a>
                         <a class="btn btn-danger" href="delete.php?id=<?php echo $row['id'] ?>"><i class="fas fa-times-circle"></i></a>
                     </td>

@@ -6,9 +6,9 @@
             <thead>
                 <tr>
 
-                    <th><a href="../config/save.php">Crear post</a></th>
+                    <th><a href="../config/save.php">New post</a></th>
                 </tr>
-                <th><a href="../config/list.php">Listar posts</a></th>
+                <th><a href="../config/list.php">List posts</a></th>
             </thead>
             <tbody>
 

@@ -11,13 +11,13 @@
             <!--  -->
             <div class="form-group">
                 <label for="Username">Username</label>
-                <input id="Username" class="form-control" type="text" placeholder="Username" name="username">
+                <input id="Username" class="form-control" type="text" placeholder="Username" name="username" required>
             </div>
             <!--  -->
             <div class="form-group">
 
                 <label for="Password">Password</label>
-                <input id="Password" class="form-control" type="password" placeholder="Password" name="password">
+                <input id="Password" class="form-control" type="password" placeholder="Password" name="password" required>
                 <small id="passwordHelpBlock" class="form-text text-muted">
                     ¿Don't have account? <a href="signup.php">Sign up</a>
                 </small>

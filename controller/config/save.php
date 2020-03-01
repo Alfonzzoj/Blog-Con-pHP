@@ -8,17 +8,24 @@
 
             <div class="card card-body">
                 <form action="save.php" method="POST">
+
                     <div class="form-group">
-                        <input class="form-control" type="text" name="Titulo" placeholder="Titulo del post" autofocus>
+                        <input class="form-control" type="text" name="Titulo" placeholder="Title post" autofocus required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-group form-control" name="Descripcion" id="" rows="2" placeholder="Descripcion"></textarea>
+                        <textarea class="form-group form-control" name="Descripcion" id="" rows="2" placeholder="Description" required></textarea>
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="text" name="Nombre_usuario" placeholder="Nombre de usuario">
+                        <input class="form-control" type="text" name="Nombre_usuario" placeholder="Username" required>
+                    </div>
+                    <div class="custom-file mb-3">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFile" required>
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input class="btn btn-success btn-block" type="submit" name="save" value="Crear Post">
+                        <input class="btn btn-success btn-block" type="submit" name="save" value="Add Post">
                     </div>
                 </form>
 
@@ -33,7 +40,7 @@
 
                     $result = mysqli_query($conn, $query);
 
-                    $_SESSION['mensaje'] = 'Blog creado';
+                    $_SESSION['mensaje'] = 'Post created';
                     $_SESSION['mensaje_tipo'] = 'success';
                 }
                 if (isset($_SESSION['mensaje'])) { ?>

@@ -10,17 +10,17 @@ session_destroy();
             <!--  -->
             <div class="form-group">
                 <label for="Username">Username</label>
-                <input id="Username" class="form-control" type="text" placeholder="Username" name="username">
+                <input id="Username" class="form-control" type="text" placeholder="Username" name="username" required>
             </div>
             <!--  -->
             <div class="form-group">
 
                 <label for="Password">Password</label>
-                <input id="Password" class="form-control" type="password" placeholder="Password" name="password">
+                <input id="Password" class="form-control" type="password" placeholder="Password" name="password" required>
                 <!--  -->
 
                 <label for="confirm_password">Confirm password</label>
-                <input id="confirm_password" class="form-control" type="password" placeholder="Confirm password" name="confirm_password">
+                <input id="confirm_password" class="form-control" type="password" placeholder="Confirm password" name="confirm_password" required>
             </div>
 
             <button type="submit" class="btn btn-primary btn-block mb-2" name="signup">Sign up</button>
