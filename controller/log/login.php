@@ -1,11 +1,11 @@
 <?php include '../../views/header.php'; ?>
-<div class="container p-5">
+<div class="container p-5 mt-5">
 
     <div class="card card-body">
-        <form action="check_login.php" method="post">
+        <form action="check_login.php" method="post" class="form-signin">
             <div class="container ">
                 <div class="row">
-                    <img src="img/2.png" alt="" style="width: 6rem;" class=" rounded-circle d-block  mx-auto mb-4">
+                    <img src="../../source/img/2.png" alt="" style="width: 6rem;" class=" rounded-circle d-block  mx-auto mb-4">
                 </div>
             </div>
             <!--  -->

@@ -23,7 +23,7 @@ if (isset($_POST['update'])) {
     header("Location: list.php");
 }
 ?>
-<div class="container p-2">
+<div class="container p-2 mt-5 pt-5">
 
     <div class="card card-body col-md-6 mx-auto">
         <form action="update.php?id=<?php echo $_GET['id'];  ?>" method="post">
@@ -46,7 +46,7 @@ if (isset($_POST['update'])) {
             </div>
             <!-- 3 -->
 
-            <button name="update" class="btn btn-primary btn-block mb-2">Actualizar</button>
+            <button name="update" class="btn btn-primary btn-block mb-2">Update post</button>
 
         </form>
 

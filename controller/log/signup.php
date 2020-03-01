@@ -2,9 +2,9 @@
 session_start();
 session_destroy();
 ?>
-<div class="container p-5">
+<div class="container p-5 mt-5 ">
 
-    <div class="card card-body">
+    <div class="card card-body ">
         <form action="signup.php" method="post" name="registro">
 
             <!--  -->
@@ -16,11 +16,11 @@ session_destroy();
             <div class="form-group">
 
                 <label for="Password">Password</label>
-                <input id="Password" class="form-control" type="password" placeholder="Password" name="password" required>
+                <input id="Password" class="form-control mb-3" type="password" placeholder="Password" name="password" required>
                 <!--  -->
 
                 <label for="confirm_password">Confirm password</label>
-                <input id="confirm_password" class="form-control" type="password" placeholder="Confirm password" name="confirm_password" required>
+                <input id="confirm_password" class=" form-control" type="password" placeholder="Confirm password" name="confirm_password" required>
             </div>
 
             <button type="submit" class="btn btn-primary btn-block mb-2" name="signup">Sign up</button>
