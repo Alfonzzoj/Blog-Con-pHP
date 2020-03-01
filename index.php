@@ -24,7 +24,7 @@
                     <div class="row no-gutters">
                         <!-- CARD IMG POST -->
                         <div class="col-md-4 pt-2">
-                            <img src="/source/img/1.png" class=" card-img rounded-circle i align-self-center mr-3">
+                            <img src="source/img/1.png" class=" card-img rounded-circle i align-self-center mr-3">
                         </div>
                         <!-- CARD TEXT POST -->
                         <div class="col-md-8">
