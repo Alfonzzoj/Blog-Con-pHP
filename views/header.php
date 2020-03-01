@@ -10,13 +10,24 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- CUSTOM CSS -->
+
     <title>Blog con php </title>
 </head>
 
 <body>
+    <!-- CUSTOM CSS -->
+    <style>
+        body {
+            background-color: white;
+            font-family: "Open Sans";
+        }
+
+        .navbar {
+            border-bottom: #639 4px solid;
+        }
+    </style>
     <!-- Navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="/Proyectos/php/index.php">
             <img src="/Proyectos/php/source/img/logob.png" alt="" width="30" height="30" class="d-inline-block align-top">
             Bloggin
