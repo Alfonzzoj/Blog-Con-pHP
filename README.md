@@ -1,6 +1,6 @@
-# Bloggin.es
+# Bloggin.com
 
-Bloggin.es es es un sitio web estilo blog, Cuenta con funciones CRUD atravez de un sistema de usuarios .
+Bloggin.com es es un sitio web estilo blog, que permite a los usuarios registrarse o iniciar sesion, para crear posts (Cada post cuenta con un campo titulo, descripcion y una imagen personalizada), visualizarlos en el "dashboard", actualizarlos y eliminarlos (Funciones CRUD), todo atravez de un comodo panel de administrador (Admin Panel).
 
 ![Screenshot1](https://github.com/Alfonzzoj/Blog-Con-php/blob/master/source/img/screen/1.png)
 ![Screenshot2](https://github.com/Alfonzzoj/Blog-Con-php/blob/master/source/img/screen/2.png)
