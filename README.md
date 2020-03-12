@@ -27,9 +27,8 @@ Bloggin.com is a blog-style website, which allows users to register or login, to
 
 ## Versioned 📌
 
--   [v1.0](https://github.com/Alfonzzoj/Blog-Con-php/releases/tag/v1.0) - Version Crud beta.
--   [v2.0](https://github.com/Alfonzzoj/Blog-Con-php/releases/tag/v2.0) - Version con funcionalidad completa.
+- [v1.0] (https://github.com/Alfonzzoj/Blog-Con-php/releases/tag/v1.0) - Version Crud beta.
+- [v2.0] (https://github.com/Alfonzzoj/Blog-Con-php/releases/tag/v2.0) - Version with full functionality.
 
-Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/Alfonzzoj/Blog-Con-php/tags).
-
+For all available versions, look at the [tags in this repository] (https://github.com/Alfonzzoj/Blog-Con-php/tags).
 ---
